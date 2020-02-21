@@ -6,5 +6,5 @@ GUI part is complete.
 <img src="im.jpg">
 <h1> Output <h1>
   <img src="out.jpg">
-  <img src="image1.jpg">
-  <img src="image0.jpg">
+  <img src="https://github.com/sahil8700/Helmet-Detector/blob/master/save/image1.jpg">
+  <img src="https://github.com/sahil8700/Helmet-Detector/blob/master/save/image0.jpg">
