@@ -35,8 +35,8 @@ def vide():
     os.startfile("C:\\Users\Sahil\Desktop\Minor\object detection\object detection\image\save")
 
 root=Tk("Project")
-bu1=PhotoImage(file="C:/Users/Sahil/Desktop/data/bu.png")
-bu2=PhotoImage(file="C:/Users/Sahil/Desktop/data/open.png")
+bu1=PhotoImage(file="/GUI/bu.png")
+bu2=PhotoImage(file="/GUI//open.png")
 
 #set width and height 
 lb=Label(root,text="Helmet Detection",anchor=CENTER,font=('Times Roman',30))
