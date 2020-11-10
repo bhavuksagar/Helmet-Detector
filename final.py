@@ -8,6 +8,9 @@ import matplotlib.pyplot as plt
 
 execution_path=os.getcwd()
 
+
+#object Detection part
+
 detector=ObjectDetection()
 detector.setModelTypeAsRetinaNet()
 detector.setModelPath("resnet50_coco_best_v2.0.1.h5")
@@ -30,9 +33,13 @@ def object_detection():
         #plt.show()
         for i in range(len(person)):
             plt.imsave("C:\\Users\Sahil\Desktop\Minor\object detection\object detection\image\save\image"+str(i)+".jpg",person[i])
-    
+  
+#end of object detection
+
 def vide():
     os.startfile("C:\\Users\Sahil\Desktop\Minor\object detection\object detection\image\save")
+
+#GUI part
 
 root=Tk("Project")
 bu1=PhotoImage(file="C:/Users/Sahil/Desktop/data/bu.png")
@@ -63,3 +70,5 @@ button.pack(side="right", fill='both', expand=True, padx=4, pady=4)
 
 
 root.mainloop()
+
+#end of gui
